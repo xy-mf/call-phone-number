@@ -1,15 +1,15 @@
-import Capacitor
 import Foundation
+import Capacitor
 
 /// Please read the Capacitor iOS Plugin Development Guide
 /// here: https://capacitorjs.com/docs/plugins/ios
 @objc(CallPhoneNumberPlugin)
 public class CallPhoneNumberPlugin: CAPPlugin {
-  @objc override public func checkPermissions(_ call: CAPPluginCall) {
+  override public func checkPermissions(_ call: CAPPluginCall) {
     call.unimplemented("Not implemented on iOS.")
   }
 
-  @objc override public func requestPermissions(_ call: CAPPluginCall) {
+  override public func requestPermissions(_ call: CAPPluginCall) {
     call.unimplemented("Not implemented on iOS.")
   }
 
@@ -22,7 +22,7 @@ public class CallPhoneNumberPlugin: CAPPlugin {
     ])
   }
 
-  @objc func callPhoneNumber(_ phoneNumber: String) -> Bool {
+  func callPhoneNumber(_ phoneNumber: String) -> Bool {
     guard let phoneURLStr = URL(string: "tel://" + phoneNumber) else {
       return false
     }
