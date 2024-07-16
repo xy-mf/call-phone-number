@@ -1,6 +1,6 @@
 {
-  "name": "call-phone-number-capacitor-4",
-  "version": "1.0.0",
+  "name": "call-phone-number",
+  "version": "0.4.0",
   "description": "A Simple Phone Call Plugin for Capacitor 4",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,7 +11,7 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CallPhoneNumberV4.podspec"
+    "CallPhoneNumber.podspec"
   ],
   "author": "Mufeng <yao1909@163.com>",
   "license": "MIT",
