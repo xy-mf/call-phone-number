@@ -1,11 +1,11 @@
-# call-phone-number-capacitor-4
+# call-phone-number
 
 A Simple Phone Call Plugin for Capacitor 4.
 
 ## Install
 
 ```bash
-npm install call-phone-number-capacitor-4
+npm install call-phone-number@~0.4
 npx cap sync
 ```
 
@@ -25,7 +25,7 @@ This API requires the following permissions be added to your AndroidManifest.xml
 ## Example
 
 ```typescript
-import { CallPhoneNumber } from 'call-phone-number-capacitor-4';
+import { CallPhoneNumber } from 'call-phone-number';
 
 const callPhone = async () => {
   CallPhoneNumber.call({ phoneNumber: '15555555555' })
