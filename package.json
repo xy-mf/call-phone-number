@@ -1,6 +1,6 @@
 {
-  "name": "call-phone-number-v4",
-  "version": "0.0.1",
+  "name": "call-phone-number-capacitor-4",
+  "version": "1.0.0",
   "description": "A Simple Phone Call Plugin for Capacitor 4",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",

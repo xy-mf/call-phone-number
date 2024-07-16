@@ -4,5 +4,7 @@
 // Define the plugin using the CAP_PLUGIN Macro, and
 // each method the plugin supports using the CAP_PLUGIN_METHOD macro.
 CAP_PLUGIN(CallPhoneNumberPlugin, "CallPhoneNumber",
-           CAP_PLUGIN_METHOD(echo, CAPPluginReturnPromise);
+        CAPPluginMethod(call, CAPPluginReturnPromise),
+        CAPPluginMethod(checkPermissions, CAPPluginReturnPromise),
+        CAPPluginMethod(requestPermissions, CAPPluginReturnPromise),
 )
