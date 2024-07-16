@@ -1,7 +1,7 @@
 {
   "name": "call-phone-number",
-  "version": "0.0.1",
-  "description": "call phone number",
+  "version": "1.0.0",
+  "description": "A Simple Phone Call Plugin for Capacitor 6",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
   "types": "dist/esm/index.d.ts",
@@ -15,7 +15,7 @@
     "Package.swift",
     "CallPhoneNumber.podspec"
   ],
-  "author": "mufeng",
+  "author": "Mufeng <yao1909@163.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
