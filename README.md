@@ -2,6 +2,12 @@
 
 A Simple Phone Call Plugin for Capacitor 6.
 
+## Plugin versions
+
+| Capacitor version | Plugin version |
+| ----------------- | -------------- |
+| v6                | >= v0.6.0      |
+
 ## Install
 
 ```bash
@@ -10,6 +16,7 @@ npx cap sync
 ```
 
 ## Android
+
 This API requires the following permissions be added to your AndroidManifest.xml:
 
 ```xml
@@ -51,11 +58,11 @@ const dialPhone = async () => {
 
 <docgen-index>
 
-* [`call(...)`](#call)
-* [`checkPermissions()`](#checkpermissions)
-* [`requestPermissions(...)`](#requestpermissions)
-* [Interfaces](#interfaces)
-* [Type Aliases](#type-aliases)
+- [`call(...)`](#call)
+- [`checkPermissions()`](#checkpermissions)
+- [`requestPermissions(...)`](#requestpermissions)
+- [Interfaces](#interfaces)
+- [Type Aliases](#type-aliases)
 
 </docgen-index>
 
@@ -74,8 +81,7 @@ call(options: CallPhoneOptions) => Promise<CallPhoneResult>
 
 **Returns:** <code>Promise&lt;<a href="#callphoneresult">CallPhoneResult</a>&gt;</code>
 
---------------------
-
+---
 
 ### checkPermissions()
 
@@ -85,8 +91,7 @@ checkPermissions() => Promise<PermissionStatus>
 
 **Returns:** <code>Promise&lt;<a href="#permissionstatus">PermissionStatus</a>&gt;</code>
 
---------------------
-
+---
 
 ### requestPermissions(...)
 
@@ -100,18 +105,15 @@ requestPermissions(permissions?: CallPhoneNumberPluginPermissions | undefined) =
 
 **Returns:** <code>Promise&lt;<a href="#permissionstatus">PermissionStatus</a>&gt;</code>
 
---------------------
-
+---
 
 ### Interfaces
-
 
 #### CallPhoneResult
 
 | Prop          | Type                 |
 | ------------- | -------------------- |
 | **`success`** | <code>boolean</code> |
-
 
 #### CallPhoneOptions
 
@@ -120,13 +122,11 @@ requestPermissions(permissions?: CallPhoneNumberPluginPermissions | undefined) =
 | **`phoneNumber`** | <code>string</code>           | The phone number to be called                                                     |
 | **`type`**        | <code>'call' \| 'dial'</code> | The type of call, optional, can be either 'call' or 'dial'. Only supports Android |
 
-
 #### PermissionStatus
 
 | Prop            | Type                                                        | Description                           |
 | --------------- | ----------------------------------------------------------- | ------------------------------------- |
 | **`callPhone`** | <code><a href="#permissionstate">PermissionState</a></code> | Permission state for callPhone alias. |
-
 
 #### CallPhoneNumberPluginPermissions
 
@@ -134,14 +134,11 @@ requestPermissions(permissions?: CallPhoneNumberPluginPermissions | undefined) =
 | ----------------- | -------------------------- |
 | **`permissions`** | <code>'callPhone'[]</code> |
 
-
 ### Type Aliases
-
 
 #### PermissionState
 
 <code>'prompt' | 'prompt-with-rationale' | 'granted' | 'denied'</code>
-
 
 #### CallPhoneNumberPermissionType
 
