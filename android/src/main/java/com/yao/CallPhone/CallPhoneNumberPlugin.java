@@ -1,4 +1,4 @@
-package com.capacitor.plugin.callphone;
+package com.yao.CallPhone;
 
 import android.Manifest;
 

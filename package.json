@@ -1,6 +1,6 @@
 {
-  "name": "call-phone-number",
-  "version": "0.4.0",
+  "name": "capacitor-call-phone-number",
+  "version": "4.0.0",
   "description": "A Simple Phone Call Plugin for Capacitor 4",
   "main": "dist/plugin.cjs.js",
   "module": "dist/esm/index.js",
@@ -11,16 +11,16 @@
     "android/build.gradle",
     "dist/",
     "ios/Plugin/",
-    "CallPhoneNumber.podspec"
+    "CapacitorCallPhoneNumber.podspec"
   ],
   "author": "Mufeng <yao1909@163.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xy-mf/call-phone-number.git"
+    "url": "git+https://github.com/xy-mf/capacitor-call-phone-number.git"
   },
   "bugs": {
-    "url": "https://github.com/xy-mf/call-phone-number/issues"
+    "url": "https://github.com/xy-mf/capacitor-call-phone-number/issues"
   },
   "keywords": [
     "capacitor",
