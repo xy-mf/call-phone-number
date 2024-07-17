@@ -6,7 +6,7 @@ A Simple Phone Call Plugin for Capacitor 6.
 
 | Capacitor version | Plugin version |
 | ----------------- | -------------- |
-| v6                | >= v0.6.0      |
+| v6                | >= v6.0.0      |
 
 ## Install
 
