@@ -1,5 +1,5 @@
 {
-  "name": "call-phone-number",
+  "name": "capacitor-call-phone-number",
   "version": "0.6.0",
   "description": "A Simple Phone Call Plugin for Capacitor 6",
   "main": "dist/plugin.cjs.js",
@@ -13,16 +13,16 @@
     "ios/Sources",
     "ios/Tests",
     "Package.swift",
-    "CallPhoneNumber.podspec"
+    "CapacitorCallPhoneNumber.podspec"
   ],
   "author": "Mufeng <yao1909@163.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/xy-mf/call-phone-number.git.git"
+    "url": "git+https://github.com/xy-mf/capacitor-call-phone-number.git"
   },
   "bugs": {
-    "url": "https://github.com/xy-mf/call-phone-number.git/issues"
+    "url": "https://github.com/xy-mf/capacitor-call-phone-number.git/issues"
   },
   "keywords": [
     "capacitor",

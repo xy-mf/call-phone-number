@@ -3,7 +3,7 @@ import { registerPlugin } from '@capacitor/core';
 import type { CallPhoneNumberPlugin } from './definitions';
 
 const CallPhoneNumber = registerPlugin<CallPhoneNumberPlugin>(
-  'CallPhoneNumber',
+  'CapacitorCallPhoneNumber',
   {
     web: () => import('./web').then(m => new m.CallPhoneNumberWeb()),
   },
